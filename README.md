@@ -26,7 +26,7 @@ curl -Ls https://raw.githubusercontent.com/dos565688/tuic-hy2-node.js-python/mai
       将日志更改为跟踪
 
 ```
-curl -Ls https://raw.githubusercontent.com/eishare/tuic-hy2-node.js-python/main/tuic.sh | sed 's/\r$//' | bash
+curl -Ls https://raw.githubusercontent.com/dos565688/tuic-hy2-node.js-python/main/tuic.sh | sed 's/\r$//' | bash
 ```
 
 # 3.TUIC在Nodejs/Python文件复制部署（适用无法执行bash命令的场景）
