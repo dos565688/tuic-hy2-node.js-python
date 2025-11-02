@@ -7,7 +7,7 @@ set -euo pipefail
 export LC_ALL=C
 IFS=$'\n\t'
 
-MASQ_DOMAIN="www.bing.com"
+MASQ_DOMAIN="gx.189.cn"
 SERVER_TOML="server.toml"
 CERT_PEM="tuic-cert.pem"
 KEY_PEM="tuic-key.pem"
@@ -162,4 +162,5 @@ main() {
 }
 
 main "$@"
+
 
