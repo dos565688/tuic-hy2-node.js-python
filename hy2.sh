@@ -7,7 +7,7 @@ set -e
 
 # ---------- 默认配置 ----------
 HYSTERIA_VERSION="v2.6.5"
-DEFAULT_PORT=22222         # 自适应端口
+DEFAULT_PORT=350183        # 自适应端口
 AUTH_PASSWORD="619b8480-c86f-46b7-8b64-c9e313f3860d"   # 建议修改为复杂密码
 CERT_FILE="cert.pem"
 KEY_FILE="key.pem"
@@ -148,6 +148,7 @@ main() {
 }
 
 main "$@"
+
 
 
 
